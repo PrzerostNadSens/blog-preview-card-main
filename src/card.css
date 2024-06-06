@@ -59,13 +59,13 @@ body {
 
 .card-title:hover,
 .card-title.active {
-  color: yellow;
+  color: #f4d04e;
   font-size: 24px;
   margin: 10px 0;
 }
 
 .card-description {
-  font-size: 14px;
+  font-size: 16px;
   color: gray;
 }
 

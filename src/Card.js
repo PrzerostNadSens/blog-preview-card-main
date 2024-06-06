@@ -11,7 +11,7 @@ const Card = () => {
       <div className="card-content">
         <span className="card-tag">Learning</span>
         <span className="card-date">Published 21 Dec 2023</span>
-        <h2 className="card-title">HTML & CSS foundations</h2>
+        <a className="card-title">HTML & CSS foundations</a>
         <p className="card-description">
           These languages are the backbone of every website, defining structure,
           content, and presentation.
