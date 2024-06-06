@@ -17,6 +17,11 @@ body {
   font-family: "Figtree";
 }
 
+.card:hover,
+.card.active {
+  box-shadow: 16px 16px 0 #000000;
+}
+
 .card-image img {
   width: 336px;
   height: 200px;
@@ -45,6 +50,13 @@ body {
 }
 
 .card-title {
+  font-size: 24px;
+  margin: 10px 0;
+}
+
+.card-title:hover,
+.card-title.active {
+  color: yellow;
   font-size: 24px;
   margin: 10px 0;
 }
