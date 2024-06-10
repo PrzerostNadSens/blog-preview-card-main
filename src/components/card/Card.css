@@ -1,3 +1,8 @@
+@font-face {
+  font-family: "Figtree";
+  src: url("../../../public/assets/fonts/Figtree-VariableFont_wght.ttf");
+}
+
 body {
   background-color: #f4d04e;
   display: flex;
@@ -5,6 +10,7 @@ body {
   align-items: center;
   height: 100vh;
   margin: 0;
+  box-sizing: border-box;
 }
 
 .card {
@@ -13,6 +19,7 @@ body {
   border-radius: 20px;
   box-shadow: 8px 8px 0 #000000;
   max-width: 384px;
+  max-height: 522px;
   margin: auto;
   overflow: hidden;
   font-family: "Figtree";
@@ -42,37 +49,42 @@ body {
   color: black;
   padding: 5px 10px;
   border-radius: 4px;
-  font-size: 12px;
+  font-size: 14px;
+  font-weight: 700;
 }
 
 .card-date {
   display: block;
   color: black;
-  font-size: 12px;
-  margin-top: 5px;
+  font-size: 14px;
+  margin: 12px 0 12px;
 }
 
 .card-title {
   font-size: 24px;
-  margin: 10px 0;
+  margin: 12px 0;
+  font-weight: 700;
+  margin: 12px 0 12px;
 }
 
 .card-title:hover,
 .card-title.active {
   color: #f4d04e;
   font-size: 24px;
-  margin: 10px 0;
+  margin: 12px 0;
 }
 
 .card-description {
   font-size: 16px;
   color: gray;
+  margin: 12px 0 12px;
 }
 
 .card-author {
   display: flex;
   align-items: center;
   margin-top: 20px;
+  font-weight: 700;
 }
 
 .author-image {
@@ -85,4 +97,22 @@ body {
 .author-name {
   font-size: 14px;
   color: #333;
+}
+
+@media screen and (max-width: 400px) {
+  .card-title {
+    font-size: 20px;
+  }
+  .card-description {
+    font-size: 14px;
+  }
+  .card-date {
+    font-size: 12px;
+  }
+  .card-tag {
+    font-size: 12px;
+  }
+  .author-name {
+    font-size: 12px;
+  }
 }
