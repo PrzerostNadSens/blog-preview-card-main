@@ -22,7 +22,6 @@ body {
   max-height: 522px;
   margin: auto;
   overflow: hidden;
-  font-family: "Figtree";
 }
 
 .card:hover,
@@ -46,7 +45,7 @@ body {
 .card-tag {
   display: inline-block;
   background-color: #ffc107;
-  color: black;
+  color: #111111;
   padding: 5px 10px;
   border-radius: 4px;
   font-size: 14px;
@@ -55,7 +54,7 @@ body {
 
 .card-date {
   display: block;
-  color: black;
+  color: #111111;
   font-size: 14px;
   margin: 12px 0 12px;
 }
@@ -70,13 +69,11 @@ body {
 .card-title:hover,
 .card-title.active {
   color: #f4d04e;
-  font-size: 24px;
-  margin: 12px 0;
 }
 
 .card-description {
   font-size: 16px;
-  color: gray;
+  color: #7f7f7f;
   margin: 12px 0 12px;
 }
 
@@ -99,7 +96,7 @@ body {
   color: #333;
 }
 
-@media screen and (max-width: 400px) {
+@media only screen and (max-width: 768px) {
   .card-title {
     font-size: 20px;
   }
