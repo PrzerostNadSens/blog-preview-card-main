@@ -62,6 +62,7 @@ body {
   margin: 12px 0;
   font-weight: 700;
   margin: 12px 0 12px;
+  cursor: pointer;
 }
 
 .card-title:hover,
